@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.btn-primary {
+.btn-local {
     color: #FFFFFF;
     background-color: #1D4ED8;
     padding: 12px 42px;
@@ -48,7 +48,7 @@ nav li a:hover {
     color: #1D4ED8;
 }
 
-.btn-primary:hover {
+.btn-local:hover {
     background-color: #1E40AF;
 }
 
@@ -127,16 +127,178 @@ nav li a:hover {
     display: flex;
     justify-content: center;
 }
-.card-section-title{
+
+.card-section-title {
     text-align: center;
 }
 
 .info {
-    
+
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 24px;
+}
+
+/* Pricing Section */
+
+.pricing {
+    max-width: 1320px;
+    margin: 100px auto;
+}
+
+.pricing-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.pricing-subtitle {
+    text-align: center;
+    color: #64748B;
+    margin-bottom: 48px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+/* Card */
+
+.pricing-card {
+    width: 370px;
+    /* background: #fff; */
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 32px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.plan-name {
+    font-size: 13px;
+    color: #6B7280;
+    /* letter-spacing: 1px; */
+    /* margin-bottom: 10px; */
+}
+
+.price {
+    font-size: 44px;
+    font-weight: bold;
+    color: #0F172A;
+}
+
+.per-person {
+    color: #6B7280;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin-bottom: 20px;
+}
+
+/* Feature List */
+
+.features {
+    list-style: disc;
+    padding-left: 20px;
+    /* flex: 1; */
+}
+
+.features li {
+    /* color: #374151; */
+    margin-bottom: 10px;
+    line-height: 21px;
+}
+
+.features li::marker {
+    color: #2563EB;
+}
+
+/* Buttons */
+
+.btn-outline,
+.btn-outline-dark,
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    /* transition: .3s; */
+}
+
+/* Standard */
+
+.btn-outline {
+    background: #fff;
+    border: 2px solid #2563EB;
+    color: #2563EB;
+}
+
+.btn-outline:hover {
+    background: #2563EB;
+    color: #fff;
+}
+
+/* Pro */
+
+.pro-card {
+    background: #0F172A;
+}
+
+.pro-title {
+    color: #60A5FA;
+}
+
+.pro-price {
+    color: #fff;
+}
+
+.pro-text {
+    color: #CBD5E1;
+}
+
+.pro-card hr {
+    border-top: 1px solid #334155;
+}
+
+.pro-features li {
+    color: #E2E8F0;
+}
+
+.pro-features li::marker {
+    color: #3B82F6;
+}
+
+.btn-primary {
+    background: #2563EB;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #1D4ED8;
+}
+
+/* Team */
+
+.btn-outline-dark {
+    background: #fff;
+    border: 2px solid #0F172A;
+    color: #0F172A;
+}
+
+.btn-outline-dark:hover {
+    background: #0F172A;
+    color: #fff;
 }
 
 /* footer  */
