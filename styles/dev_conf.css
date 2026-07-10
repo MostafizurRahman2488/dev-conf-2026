@@ -7,7 +7,7 @@
 .btn-primary {
     color: #FFFFFF;
     background-color: #1D4ED8;
-    /* padding: 12px 42px; */
+    padding: 12px 42px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
@@ -105,4 +105,22 @@ nav li a:hover {
 
 #btn-banner:hover {
     background-color: #1D4ED8;
+}
+
+/* footer  */
+footer {
+    max-width: 1550px;
+    margin: 0 auto;
+    background-color: red;
+    padding: 60px 115px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
 }
