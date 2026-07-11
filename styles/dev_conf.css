@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
 .btn-local {
     color: #FFFFFF;
     background-color: #1D4ED8;
@@ -57,7 +62,7 @@ nav li a:hover {
 /* banner-section  */
 .banner {
     max-width: 1550px;
-    height: 780px;
+     min-height:780px;
     margin: 0 auto;
 
     background-image: url("../assets/banner.jpg");
@@ -213,8 +218,8 @@ nav li a:hover {
 /* Card */
 
 .pricing-card {
-    width: 370px;
-    /* background: #fff; */
+    max-width:370px;
+    background: #fff;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
     padding: 32px;
